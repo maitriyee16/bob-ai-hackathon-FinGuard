@@ -21,8 +21,37 @@ The system asks the customer for permission before using transaction history and
 
 > See [`architecture.md`](architecture.md) for the detailed diagram.
 
-[Optionally include a simple ASCII or Mermaid diagram here for quick reference.]
+```mermaid
+graph TD
 
+A["User"] --> B["Browser"]
+B --> C["React Frontend"]
+C --> D["FastAPI Backend"]
+
+D --> E["Transaction Data"]
+E --> F["Fraud Detection Engine"]
+
+F --> G["Behavioral Analysis"]
+F --> H["Anomaly Detection"]
+F --> I["Risk Score Calculation"]
+
+I --> J{"Risk Level"}
+
+J -->|Low Risk| K["Allow Transaction"]
+J -->|Medium Risk| L["OTP Verification"]
+J -->|High Risk| M["Block Transaction"]
+
+L --> N{"OTP Valid?"}
+N -->|Yes| K
+N -->|No| M
+
+D --> O["PostgreSQL Database"]
+O --> P["Transaction Records"]
+O --> Q["Risk Results"]
+
+D --> R["Manager Dashboard"]
+R --> S["Alerts and Monitoring"]
+```
 ```
 [User] → [Frontend: React] → [API: FastAPI] → [watsonx.ai] → [Dashboard]
                                     ↓
