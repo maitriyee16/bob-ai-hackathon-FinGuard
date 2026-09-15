@@ -1,7 +1,7 @@
 # Problem Statement - Fraud Detection System
 
-Background 
-->This problem belongs to the Banking and Financial Technology (FinTech) industry, specifically the domain of digital banking, cybersecurity, and financial fraud prevention.
+## Background 
+This problem belongs to the Banking and Financial Technology (FinTech) industry, specifically the domain of digital banking, cybersecurity, and financial fraud prevention.
 
 ## The Problem
 With the rapid growth of UPI, mobile banking, internet banking, credit/debit cards, and online payments, customers perform millions of financial transactions digitally every day. This creates opportunities for fraudsters to carry out unauthorized transactions, account takeovers, identity theft, and unusual financial activities. Traditional security systems may not always detect suspicious transactions quickly, while excessive verification can create inconvenience for genuine customers.
