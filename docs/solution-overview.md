@@ -68,7 +68,4 @@ R --> S["Alerts and Monitoring"]
 
 ## IBM Technologies Used
 
-[Explain specifically HOW you used each IBM technology — not just that you used it.]
-
-- **[IBM Tech 1, e.g., watsonx.ai]:** [How it was used — e.g., "Used the `ibm/granite-13b-instruct-v2` model via the Python SDK to classify anomaly types from log text."]
-- **[IBM Tech 2]:** [How it was used]
+- **[IBM Tech 1, IBM watsonx.ai is used as the AI inference service for analyzing transaction data and supporting fraud-risk detection and scoring.
