@@ -9,51 +9,48 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "FinGuard"                             # REQUIRED — e.g., "Orion Squad"
+  track: "AI | DevOps | Sustainability | OpenAI"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: " Maitryee Radadiya"                           # REQUIRED — e.g., "Alice Chen"
+    email: "26dcs109@charusat.edu.in"                          # REQUIRED — e.g., "alice.chen@ibm.com"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Angel Bhanderi"                         # REQUIRED — Team member 1
+      email: "26dcs009@charusat.edu.in"
+    - name: "Astha kevadiya"                         # Add more members by copying the two lines above
+      email: "26ce040@charusat.edu.in"
+    - name: "Alpeshwari parmar"
+      email: "26dcs067@charusat.edu.in"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Fraud Detection System - AURA"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
-  problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+  problem_statement: > 
+  With the rapid growth of UPI, mobile banking, internet banking, credit/debit cards, and online payments, customers perform millions of financial transactions digitally every day. This creates opportunities for fraudsters to carry out unauthorized transactions, account takeovers, identity theft, and unusual financial activities. Traditional security systems may not always detect suspicious transactions quickly, while excessive verification can create inconvenience for genuine customers.
+  solution_summary: > 
+  We built Aura, an AI-powered fraud detection system that analyzes transaction behavior, user patterns, device signals, and contextual risk factors in real time. It detects suspicious authorized transactions and provides timely, explainable warnings to help prevent financial fraud.
 
-  solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
-
-  key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+  key_features:              
+  - "Real-time transaction monitoring and fraud detection"
+  - "AI-based behavioral analysis to identify unusual user activity"
+  - "Context-aware risk scoring using transaction, device, and beneficiary signals"
+  - "Authorized fraud detection for scam-induced payments"
+  - "Explainable alerts showing why a transaction is considered risky"
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages: [ Python, SQL, HTML]                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    frameworks: [FastAPI, React.js]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: [watsonx.ai, IBM Bob]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    databases: [PostgreSQL, Redis]                      # e.g., ["PostgreSQL", "Redis"]
+    other: [Docker, Github Actions]                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
-  what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+  what_we_are_most_proud_of: >
+  We are proud of building **Aura**, a solution focused on detecting authorized fraud that traditional systems can easily miss. We are especially proud of our context-aware approach, which combines user behavior, transaction patterns, and risk signals to identify suspicious activity. Most importantly, Aura provides **clear and explainable alerts** that can help users make safer financial decisions.
 
-  known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+
+  known_limitations: >        
+  Aura is currently a prototype that relies mainly on simulated data, so its accuracy may differ from real-world banking environments. Fraud patterns constantly evolve, and the system may occasionally generate false alerts or miss new types of fraud. It also does not currently connect to real banking systems or process real transactions.
+
 
 # =============================================================================
 # ARTIFACT LOCATIONS
