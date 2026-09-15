@@ -1,15 +1,14 @@
-# Setup Guide
+# AURA Fraud Detecting System — Setup Guide
 
-> **This file is read by the automated evaluation pipeline. Be precise and complete.**
-
+> AURA Security Brain is a fictional banking cybersecurity and fraud-detection platform developed for the IBM BOB Hackathon. It demonstrates transaction risk analysis, adaptive authentication, anomaly detection, security alerts, incident management, and audit tracking
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
-
-- [ ] [e.g., Python 3.11+]
-- [ ] [e.g., Node.js 18+]
-- [ ] [e.g., Docker Desktop]
-- [ ] [e.g., An IBM Cloud account with watsonx.ai access]
+* [ ]	Python 3.11+
+* [ ]	Node.js 18+
+* [ ]	npm 9+
+* [ ]	PostgreSQL 14+ (or Docker Desktop)
+* [ ]	Git
 
 ## Environment Variables
 
@@ -21,10 +20,10 @@ cp .env.example .env
 
 | Variable | Description | Required |
 |---|---|---|
-| `WATSONX_API_KEY` | Your IBM watsonx.ai API key | Yes |
-| `WATSONX_PROJECT_ID` | Your watsonx.ai project ID | Yes |
-| `DATABASE_URL` | PostgreSQL connection string | Yes |
-| `SLACK_WEBHOOK_URL` | Slack webhook for alerts | No |
+DATABASE_URL |	PostgreSQL connection string	| Yes
+SECRET_KEY | Secret key used for protected sessions |	Yes
+DEMO_PASSWORD	| Password for the demo applications	| Yes
+FRONTEND_URL |	Frontend application URL |	Yes
 
 ## Installation
 
