@@ -6,14 +6,16 @@
 
 ```mermaid
 graph TD
-    A[User / Browser] -->|HTTP| B[Frontend - React]
+   A[User / Browser] -->|HTTP| B[Frontend - React]
     B -->|REST API| C[Backend - FastAPI]
-    C -->|transaction data| D[Fraud detection Engine]
-    C -->|Query| E[PostgreSQL]
-    C -->|Alert| F[Manager Dashboard]
-    D -->|analyse| G[Behavioral Analysis]
-    D -->|analyse| H[Anomaly Detection]
-    D -->|calculate| I[Risk Scoring]
+    C -->|Transaction Data| D[Fraud Detection Engine]
+    D -->|Analyze| E[Behavioral Analysis]
+    D -->|Analyze| F[Anomaly Detection]
+    D -->|Calculate| G[Risk Scoring]
+    C -->|Query| H[PostgreSQL]
+    D -->|Risk Result| C
+    C -->|Alert| I[Manager Dashboard]
+    C -->|Warning| B
 
 
 
