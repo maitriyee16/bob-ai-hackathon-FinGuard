@@ -1,19 +1,13 @@
 # 🚀 Fraud detection system for online banking
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
-
----
 
 ## 👥 Team
 
-| Field | Value |
-|---|---|
 | **Team Name** | FinGuard |
 | **Track** | [AI / DevOps / Sustainability / Open] |
 | **Team Lead** | Maitriyee Radadiya — 26dcs109@charusat.edu.in |
 | **Members** | Angel, Astha, Alpeshwari |
 
----
 
 ## 🎯 Fraud Detection system for online Banking
 
@@ -44,22 +38,16 @@ Aura uses a **context-aware AI risk engine** to evaluate each transaction agains
 
 - **Feature 3:** **Aura is a smart banking fraud detection system designed to detect suspicious transactions before they become financial losses. It analyzes transaction history, spending patterns, location, device activity, beneficiary details, and unusual behavior to generate a real-time risk score. Aura focuses especially on authorized fraud, where users are manipulated into making legitimate-looking fraudulent payments, and provides timely alerts with clear reasons for the detected risk.**
 
-- **Feature 4:** [optional]
-- **Feature 5:** [Optional]
-
----
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
-|real life banking promblem | FastAPI/Flask |
 | **Languages** | Python, TypeScript |
 | **Frameworks** | FastAPI, React.js, Flask |
 | **IBM Technologies** | watsonx.ai, IBM Bob |
 | **Databases** | PostgreSQL, Redis |
 | **Other** | Docker, GitHub Actions |
 
----
+
 
 ## 📁 Repository Structure
 
@@ -77,7 +65,6 @@ Aura uses a **context-aware AI risk engine** to evaluate each transaction agains
 └── submission.yaml       # Structured submission metadata
 ```
 
----
 
 ## ⚡ How to Run
 
