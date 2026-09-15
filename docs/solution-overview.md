@@ -62,10 +62,9 @@ R --> S["Alerts and Monitoring"]
 
 | Decision | Rationale |
 |---|---|
-| [e.g., Used watsonx.ai for anomaly detection] | [e.g., Pre-trained models reduced time-to-value vs. building from scratch] |
-| [Decision 2] | [Rationale 2] |
-| [Decision 3] | [Rationale 3] |
+| Used watsonx.ai for anomaly detection | Pre-trained models reduced time-to-value vs. building from scratch |
+
 
 ## IBM Technologies Used
 
-- **[IBM Tech 1, IBM watsonx.ai is used as the AI inference service for analyzing transaction data and supporting fraud-risk detection and scoring.
+- IBM Tech 1, IBM watsonx.ai is used as the AI inference service for analyzing transaction data and supporting fraud-risk detection and scoring.
