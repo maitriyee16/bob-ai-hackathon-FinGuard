@@ -13,7 +13,7 @@ graph TD
     C -->|Alert| F[Manager Dashboard]
     D -->|analyse| G[Behavioral Analysis]
     D -->|analyse| H[Anomaly Detection]
-    D -->|calculate| H[Risk Scoring]
+    D -->|calculate| I[Risk Scoring]
 
 
 
