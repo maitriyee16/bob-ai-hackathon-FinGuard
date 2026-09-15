@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 Fraud detection system for online banking
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,35 +8,43 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | FinGuard |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | Maitriyee Radadiya — 26dcs109@charusat.edu.in |
+| **Members** | Angel, Astha, Alpeshwari |
 
 ---
 
-## 🎯 Problem Statement
+## 🎯 Fraud Detection system for online Banking
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
+Our website Aura will solves the problem of **authorized fraud in online banking**, where genuine users are tricked into making fraudulent transactions.
+It analyzes transaction behavior, customer patterns, beneficiaries, devices, and transaction context to detect suspicious activity.
+This problem affects **banking customers** who may fall victim to scams, phishing, or social engineering.
+It also helps **banks and financial institutions** reduce fraud losses, false alerts, and investigation efforts.
 
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
 
----
+Aura addresses **authorized fraud in online banking**, where genuine customers are manipulated by scammers into approving fraudulent transactions. Its primary users are **online banking customers and financial institutions**. Customers risk losing money even when their transactions are properly authenticated, while banks struggle to distinguish genuine payments from socially engineered fraud. Aura analyzes transaction behavior and context in real time to identify suspicious activity and warn users before potential losses occur.
+
+
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
+We built **Aura**, an AI-powered fraud detection system that analyzes transaction behavior, customer patterns, beneficiary risk, device signals, and transaction context. It identifies suspicious authorized transactions in real time and provides timely warnings to customers and risk insights to financial institutions.
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
 
----
+Aura uses a **context-aware AI risk engine** to evaluate each transaction against the user’s normal behavior, transaction amount, beneficiary history, device signals, timing, and recent activity. It combines rule-based detection, behavioral analysis, and risk scoring to identify unusual patterns that traditional authentication may miss. When a transaction appears suspicious, Aura provides an explainable warning or intervention instead of simply allowing or blocking it.
+
+
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
+- **Feature 1:** **Real-time context-aware fraud detection using AI-powered behavioral analysis and risk scoring.**
+
+- **Feature 2:** **Aura is an AI-powered, real-time fraud detection system that analyzes transaction behavior, user patterns, device signals, and transaction context to identify suspicious banking activity and prevent authorized fraud.**
+
+- **Feature 3:** **Aura is a smart banking fraud detection system designed to detect suspicious transactions before they become financial losses. It analyzes transaction history, spending patterns, location, device activity, beneficiary details, and unusual behavior to generate a real-time risk score. Aura focuses especially on authorized fraud, where users are manipulated into making legitimate-looking fraudulent payments, and provides timely alerts with clear reasons for the detected risk.**
+
+- **Feature 4:** [optional]
 - **Feature 5:** [Optional]
 
 ---
@@ -44,12 +52,12 @@
 ## 🛠️ Tech Stack
 
 | Category | Technologies |
-|---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+|real life banking promblem | FastAPI/Flask |
+| **Languages** | Python, TypeScript |
+| **Frameworks** | FastAPI, React.js, Flask |
+| **IBM Technologies** | watsonx.ai, IBM Bob |
+| **Databases** | PostgreSQL, Redis |
+| **Other** | Docker, GitHub Actions |
 
 ---
 
@@ -77,7 +85,7 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/[your-repo].git
+git clone https://github.com/bob-ai-hackathon-FinGuard.git
 cd [your-repo]
 
 # 2. Install dependencies
@@ -102,20 +110,18 @@ cp .env.example .env
 | 🖼️ Screenshots | [See demo/screenshots/](demo/screenshots/) |
 | 📊 Presentation | [See presentation/slides.pdf](presentation/) |
 
----
 
 ## ⚠️ Known Limitations
 
 > Be honest — judges appreciate transparency over overclaiming.
 
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
+- [Limitation 1: "Authentication is mocked — not production-ready"
+- [Limitation 2: "Only tested on Chrome"
+- [Limitation 3: "Feature X is scaffolded but not fully implemented"
 
----
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+The strongest part of **Aura** is its ability to detect **authorized fraud**, which traditional systems can easily miss because the transaction is performed by the legitimate user. Judges should pay close attention to Aura’s **context-aware risk analysis**, which combines user behavior, transaction patterns, beneficiary details, device signals, and unusual activity to generate an explainable risk score and provide timely warnings before potential financial loss.
 
----
+
