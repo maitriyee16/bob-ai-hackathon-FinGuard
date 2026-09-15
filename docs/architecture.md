@@ -9,7 +9,7 @@ graph TD
 ## System Architecture
 
 Our system uses a React frontend, FastAPI backend, fraud detection engine, PostgreSQL database, and manager dashboard.
-
+`got 'NODE_STRING'`
 ```mermaid
 flowchart TD
     A[User / Browser] -->|HTTP| B[Frontend - React]
