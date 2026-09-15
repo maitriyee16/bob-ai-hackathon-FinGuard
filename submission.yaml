@@ -9,21 +9,21 @@
 # =============================================================================
 
 team:
-  name: "FinGuard"                             # REQUIRED — e.g., "Orion Squad"
-  track: "AI | DevOps | Sustainability | OpenAI"                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: FinGuard                             
+  track: AI | DevOps | Sustainability | OpenAI
   lead:
-    name: " Maitryee Radadiya"                           # REQUIRED — e.g., "Alice Chen"
-    email: "26dcs109@charusat.edu.in"                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: Maitryee Radadiya                        
+    email: 26dcs109@charusat.edu.in                         
   members:
-    - name: "Angel Bhanderi"                         # REQUIRED — Team member 1
-      email: "26dcs009@charusat.edu.in"
-    - name: "Astha kevadiya"                         # Add more members by copying the two lines above
-      email: "26ce040@charusat.edu.in"
-    - name: "Alpeshwari parmar"
-      email: "26dcs067@charusat.edu.in"
+    - name: Angel Bhanderi
+      email: 26dcs009@charusat.edu.in
+    - name: Astha kevadiya                         
+      email: 26ce040@charusat.edu.in
+    - name: Alpeshwari parmar
+      email: 26dcs067@charusat.edu.in
 
 submission:
-  title: "Fraud Detection System - AURA"                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: Fraud Detection System - AURA                            
 
   problem_statement: > 
   With the rapid growth of UPI, mobile banking, internet banking, credit/debit cards, and online payments, customers perform millions of financial transactions digitally every day. This creates opportunities for fraudsters to carry out unauthorized transactions, account takeovers, identity theft, and unusual financial activities. Traditional security systems may not always detect suspicious transactions quickly, while excessive verification can create inconvenience for genuine customers.
