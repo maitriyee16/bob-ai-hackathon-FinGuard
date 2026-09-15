@@ -8,11 +8,14 @@
 graph TD
     A[User / Browser] -->|HTTP| B[Frontend - React]
     B -->|REST API| C[Backend - FastAPI]
-    C -->|SDK| D[watsonx.ai]
+    C -->|transaction data| D[Fraud detection Engine]
     C -->|Query| E[PostgreSQL]
-    C -->|Publish| F[Slack Webhook]
-    D -->|Inference Result| C
-```
+    C -->|Alert| F[Manager Dashboard]
+    D -->|analyse| G[Behavioral Analysis]
+    D -->|analyse| H[Anomaly Detection]
+    D -->|calculate| H[Risk Scoring]
+
+
 
 ## Components
 
