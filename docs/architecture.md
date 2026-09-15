@@ -2,28 +2,40 @@
 
 ## System Architecture
 
-[Describe the overall architecture of your system. Replace the Mermaid diagram below with your actual architecture.]
+Our system uses a React frontend, FastAPI backend, fraud detection engine, PostgreSQL database, and manager dashboard.
+
+### Architecture Diagram
 
 ```mermaid
 graph TD
-## System Architecture
 
-Our system uses a React frontend, FastAPI backend, fraud detection engine, PostgreSQL database, and manager dashboard.
-`got 'NODE_STRING'`
-```mermaid
-flowchart TD
-    A[User / Browser] -->|HTTP| B[Frontend - React]
-    B -->|REST API| C[Backend - FastAPI]
-    C -->|Transaction Data| D[Fraud Detection Engine]
+A["User"] --> B["Browser"]
+B --> C["React Frontend"]
+C --> D["FastAPI Backend"]
 
-    D -->|Analyze| E[Behavioral Analysis]
-    D -->|Analyze| F[Anomaly Detection]
-    D -->|Calculate| G[Risk Scoring]
+D --> E["Transaction Data"]
+E --> F["Fraud Detection Engine"]
 
-    C -->|Query| H[PostgreSQL]
-    D -->|Risk Result| C
-    C -->|Alert| I[Manager Dashboard]
-    C -->|Warning| B
+F --> G["Behavioral Analysis"]
+F --> H["Anomaly Detection"]
+F --> I["Risk Score Calculation"]
+
+I --> J{"Risk Level"}
+
+J -->|Low Risk| K["Allow Transaction"]
+J -->|Medium Risk| L["OTP Verification"]
+J -->|High Risk| M["Block Transaction"]
+
+L --> N{"OTP Valid?"}
+N -->|Yes| K
+N -->|No| M
+
+D --> O["PostgreSQL Database"]
+O --> P["Transaction Records"]
+O --> Q["Risk Results"]
+
+D --> R["Manager Dashboard"]
+R --> S["Alerts and Monitoring"]
 ```
 
 
