@@ -6,16 +6,25 @@
 
 ```mermaid
 graph TD
-   A[User / Browser] -->|HTTP| B[Frontend - React]
+## System Architecture
+
+Our system uses a React frontend, FastAPI backend, fraud detection engine, PostgreSQL database, and manager dashboard.
+
+```mermaid
+flowchart TD
+    A[User / Browser] -->|HTTP| B[Frontend - React]
     B -->|REST API| C[Backend - FastAPI]
     C -->|Transaction Data| D[Fraud Detection Engine]
+
     D -->|Analyze| E[Behavioral Analysis]
     D -->|Analyze| F[Anomaly Detection]
     D -->|Calculate| G[Risk Scoring]
+
     C -->|Query| H[PostgreSQL]
     D -->|Risk Result| C
     C -->|Alert| I[Manager Dashboard]
     C -->|Warning| B
+```
 
 
 
