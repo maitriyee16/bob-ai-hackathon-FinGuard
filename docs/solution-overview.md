@@ -2,16 +2,20 @@
 
 ## What We Built
 
-[Describe your solution in plain language. Avoid jargon — write as if explaining to a smart colleague unfamiliar with your tech stack.]
+We built a Fraud Detection System for digital banking that identifies potentially suspicious transactions and applies different security measures based on the level of risk.
+The system asks the customer for permission before using transaction history and location information. It then analyzes the transaction and makes a security decision without showing the customer the actual risk percentage. Genuine low-risk transactions can proceed normally, medium-risk transactions require OTP verification, and high-risk transactions are blocked.
 
 ## How It Works
 
-[Explain the core mechanism step by step. A numbered list or simple flow works well here.]
-
-1. [Step 1: e.g., "User connects their GitHub repository via OAuth"]
-2. [Step 2: e.g., "The system ingests pipeline logs and feeds them to watsonx.ai"]
-3. [Step 3: e.g., "An anomaly score is computed and displayed on the dashboard"]
-4. [Step 4: e.g., "Alerts are sent to Slack when the score exceeds a threshold"]
+1. Customer enters banking details and transaction information.
+2. The system asks for customer permission to access transaction history.
+3. The system asks for permission to use location information.
+4. The system analyzes factors such as transaction amount, transaction history, transaction pattern, and location.
+5. A risk score is calculated internally and is not shown to the customer.
+6. Low risk: The transaction is allowed.
+7. Medium risk (50–75%): The customer receives an OTP for verification.
+8. High risk (>75%): The transaction is blocked.
+9. The system displays the appropriate result to the customer.
 
 ## Architecture Diagram
 
