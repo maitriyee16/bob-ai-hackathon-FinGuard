@@ -1,21 +1,32 @@
-# Problem Statement
+# Problem Statement - Fraud Detection System
 
-## Background
-
-[Describe the broader context. What domain or industry does this problem belong to? What situation creates the problem?]
+Background 
+->This problem belongs to the Banking and Financial Technology (FinTech) industry, specifically the domain of digital banking, cybersecurity, and financial fraud prevention.
 
 ## The Problem
-
-[State the problem clearly and specifically. Avoid vague statements like "things are slow" — instead say "Operations teams spend an average of 45 minutes per incident diagnosing pipeline failures because logs are scattered across 6 different tools."]
+With the rapid growth of UPI, mobile banking, internet banking, credit/debit cards, and online payments, customers perform millions of financial transactions digitally every day. This creates opportunities for fraudsters to carry out unauthorized transactions, account takeovers, identity theft, and unusual financial activities. Traditional security systems may not always detect suspicious transactions quickly, while excessive verification can create inconvenience for genuine customers.
 
 ## Who is Affected
+The problem affects several stakeholders in the banking and financial sector:
 
-[Describe the specific user or persona experiencing this problem. Be concrete — not "developers" but "backend engineers managing CI/CD pipelines in enterprises with 50+ microservices."]
+* Bank Customers: May lose money or have their accounts compromised due to fraudulent transactions.
+* Banks and Financial Institutions: Face financial losses, fraud-related costs, reputational damage, and loss of customer trust.
+* Merchants and Businesses: Can suffer losses from fraudulent payments, chargebacks, and unauthorized transactions.
+* Banking Security Teams: Must continuously monitor large numbers of transactions and identify suspicious activities.
+* Regulators and the Financial System: Increasing fraud can reduce trust in digital banking and create broader financial-security concerns.
 
 ## Why It Matters
+Banking fraud can cause financial loss, privacy risks, and loss of trust in digital banking. As more people use online banking and digital payments, detecting suspicious transactions quickly is becoming increasingly important.
 
-[What is the cost of this problem? Lost time? Revenue? Safety risk? Frustration? Quantify if possible.]
+A fraud detection system matters because it can:
 
+* Protect customers’ money by identifying potentially fraudulent transactions.
+* Reduce financial losses for banks and customers.
+* Detect suspicious activity in real time before further unauthorized transactions occur.
+* Improve customer trust in digital banking services.
+* Reduce unnecessary inconvenience by using risk-based verification instead of treating every transaction as suspicious.
+* Strengthen banking security while considering customer consent and privacy.
+
+  
 ## Why Existing Solutions Fall Short
-
-[Briefly explain what people currently do and why it doesn't fully solve the problem. This sets up why your solution is needed.]
+Existing systems may generate false alerts, miss new fraud patterns, and delay fraud detection. They can also inconvenience genuine customers through unnecessary verification. Our system aims to improve this by using multiple risk factors and risk-based verification to detect suspicious transactions more effectively.
