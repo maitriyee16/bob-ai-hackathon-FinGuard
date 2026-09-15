@@ -29,8 +29,8 @@ FRONTEND_URL |	Frontend application URL |	Yes
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/[your-org]/[your-repo].git
-cd [your-repo]
+git clone https://github.com/maitriyee16/bob-ai-hackathon-FinGuard.git
+cd bob-ai-hackathon-FinGuard
 
 # 2. Install backend dependencies
 [your command — e.g.: pip install -r requirements.txt]
